@@ -1,0 +1,18 @@
+﻿<Window x:Class="UtopiaInstaller.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UtopiaInstaller"
+        mc:Ignorable="d"
+        Title="Utopia Installer" Height="500" Width="830" MinHeight="500" MinWidth="830">
+    <Grid>
+        <Button x:Name="DownloadRuntimeBtn" Content="下载runtime" HorizontalAlignment="Left" Height="19" Margin="10,10,0,0" VerticalAlignment="Top" Width="111" Click="DownloadRuntimeBtn_Click"/>
+        <Button x:Name="StartGameBtn" Content="开始游戏" FontSize="15" HorizontalAlignment="Left" Height="54" Margin="375,153,0,0" VerticalAlignment="Top" Width="104"/>
+        <ListBox x:Name="GameList" HorizontalAlignment="Left" Height="441" Margin="10,34,0,0" VerticalAlignment="Top" Width="360" SelectionChanged="GameList_SelectionChanged" />
+        <Button x:Name="DownloadNewGameBtn" Content="下载新版本" HorizontalAlignment="Left" Height="19" Margin="126,10,0,0" VerticalAlignment="Top" Width="130" Click="DownloadNewGameBtn_Click"/>
+        <Label x:Name="GameInfoLabel" Content="" FontSize="15" HorizontalAlignment="Left" Height="114" Margin="375,34,0,0" VerticalAlignment="Top" Width="445"/>
+        <Button x:Name="JvmSettingBtn" Content="JVM设置" FontSize="15" HorizontalAlignment="Left" Height="54" Margin="484,153,0,0" VerticalAlignment="Top" Width="114"/>
+
+    </Grid>
+</Window>
