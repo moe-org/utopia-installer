@@ -12,7 +12,7 @@
         <ListBox x:Name="GameList" HorizontalAlignment="Left" Height="441" Margin="10,34,0,0" VerticalAlignment="Top" Width="360" SelectionChanged="GameList_SelectionChanged" />
         <Button x:Name="DownloadNewGameBtn" Content="下载新版本" HorizontalAlignment="Left" Height="19" Margin="126,10,0,0" VerticalAlignment="Top" Width="130" Click="DownloadNewGameBtn_Click"/>
         <Label x:Name="GameInfoLabel" Content="" FontSize="15" HorizontalAlignment="Left" Height="114" Margin="375,34,0,0" VerticalAlignment="Top" Width="445"/>
-        <Button x:Name="JvmSettingBtn" Content="JVM设置" FontSize="15" HorizontalAlignment="Left" Height="54" Margin="484,153,0,0" VerticalAlignment="Top" Width="114"/>
+        <Button x:Name="JvmSettingBtn" Content="JVM设置" FontSize="15" HorizontalAlignment="Left" Height="54" Margin="484,153,0,0" VerticalAlignment="Top" Width="114" Click="JvmSettingBtn_Click"/>
 
     </Grid>
 </Window>
